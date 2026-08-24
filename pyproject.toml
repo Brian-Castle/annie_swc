@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools >= 81.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "annie_swc"
+version = "0.0.3"
+authors = [
+  { name="Brian Castle", email="bc71191@gmail.com" },
+]
+description = "SWC File Converter"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+	"numpy >= 2.4.6",
+	"pandas >= 3.0.3",
+	"panel >= 1.9.3",
+	"pyvista >= 0.48.4",
+	"open3d >= 0.19.0",
+	"tetgen >= 0.8.4",
+	"pyacvd >= 0.4.0",
+	"pymeshfix >= 0.18.1",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://annie-interface.org"
