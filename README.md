@@ -122,7 +122,7 @@ prior to installing any of the dependencies above!
 
 All you need, to run annie_swc, are the files in the src folder (there is one Python script
 and one config file). Create a folder of your choice on your machine, download these two files,
-and optionally create the Data folder if you with to use it. Update the config file to point
+and optionally create the Data folder if you wish to use it. Update the config file to point
 to the correct paths, and from the command line type 'panel serve annie_swc.py'.
 
 ## Notes
