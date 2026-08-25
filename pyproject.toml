@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "annie_swc"
-version = "0.0.3"
+version = "0.0.7"
 authors = [
   { name="Brian Castle", email="bc71191@gmail.com" },
 ]
@@ -16,7 +16,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-	"numpy >= 2.4.6",
+	"numpy >= 2.4",
 	"pandas >= 3.0.3",
 	"panel >= 1.9.3",
 	"pyvista >= 0.48.4",
